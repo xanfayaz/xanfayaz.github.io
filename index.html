@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Горизонтальное меню с многоуровневыми подменю -->
+    <div class="nav">
+        <div class="nav-item">
+            <a href="#" class="pt">Главная</a>
+            <div class="drop">
+                <a href="#" class="drop_item">Главная страница</a>
+                <a href="#" class="drop_item">О нас</a>
+                <a href="#" class="drop_item">Контакты</a>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="#" class="pt">Услуги</a>
+            <div class="drop">
+                <div class="sub-item">
+                    <a href="#" class="drop_item">Веб-разработка</a>
+                    <div class="sub-drop">
+                        <a href="#" class="sub_drop_item">HTML/CSS</a>
+                        <div class="sub-sub-item">
+                            <a href="#" class="sub_drop_item">JavaScript</a>
+                            <div class="sub-sub-drop">
+                                <a href="#" class="sub_sub_drop_item">Vue</a>
+                                <a href="#" class="sub_sub_drop_item">Angular</a>
+                                <a href="#" class="sub_sub_drop_item">Svelte</a>
+                            </div>
+                        </div>
+                        <div class="sub-sub-item">
+                            <a href="#" class="sub_drop_item">React</a>
+                            <div class="sub-sub-drop">
+                                <a href="#" class="sub_sub_drop_item">Redux</a>
+                                <a href="#" class="sub_sub_drop_item">Next.js</a>
+                                <a href="#" class="sub_sub_drop_item">Vite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="drop_item">Дизайн</a>
+                <a href="#" class="drop_item">SEO</a>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="#" class="pt">Портфолио</a>
+            <div class="drop">
+                <a href="#" class="drop_item">Сайты</a>
+                <a href="#" class="drop_item">Лендинги</a>
+                <a href="#" class="drop_item">Приложения</a>
+            </div>
+        </div>
+
+        <a href="#" class="pt">Блог</a>
+        <a href="#" class="pt">Контакты</a>
+    </div>
+
+    <!-- Трёхколоночный макет -->
+    <div class="container">
+
+        <!-- Левая колонка — НОВОСТИ -->
+        <div class="sidebar left">
+            <h3>Новости</h3>
+            <p>15.11 — Запуск нового проекта</p>
+            <p>10.11 — Обновление портфолио</p>
+            <p>05.11 — Вебинар по CSS</p>
+        </div>
+
+        <!-- Правая колонка — КОНТАКТЫ -->
+        <div class="sidebar right">
+            <h3>Контакты</h3>
+            <p><strong>Адрес:</strong><br>
+               г. Москва, ул. Ленина, д. 25, офис 12</p>
+            <p><strong>Телефон:</strong><br>
+               +7 (495) 123-45-67</p>
+            <p><strong>Email:</strong><br>
+               info@mysite.ru</p>
+            <p><strong>Время работы:</strong><br>
+               Пн–Пт: 9:00–18:00<br>
+               Сб–Вс: выходной</p>
+        </div>
+
+        <!-- Центральная колонка — ПРОЕКТЫ -->
+        <div class="content">
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=1" alt="Проект 1">
+                <h3>Проект 1</h3>
+                <div class="overlay">Современный дизайн</div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=2" alt="Проект 2">
+                <h3>Проект 2</h3>
+                <div class="overlay">Адаптивная вёрстка</div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=3" alt="Проект 3">
+                <h3>Проект 3</h3>
+                <div class="overlay">Быстрая загрузка</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
