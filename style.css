@@ -1,4 +1,4 @@
-/* Простые стили — как у новичка */
+
 
 * {
     margin: 0;
@@ -215,4 +215,5 @@ body {
 @media (max-width: 800px) {
     .sidebar.left, .sidebar.right { width: 150px; }
     .card { width: 100%; max-width: 300px; float: none; margin: 15px auto; }
+
 }
